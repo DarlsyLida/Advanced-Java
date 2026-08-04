@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<form name="detail" method="post" action="executeform">
+    <table>
+        <tr>
+            <td>firstname:</td>
+            <td><input type="text" name="fname"/></td>
+        </tr>
+        <tr>
+            <td>lastname:</td>
+            <td><input type="text" name="lname"/></td>
+        </tr>
+        <tr>
+            <td>email:</td>
+            <td><input type="email" name="email"/></td>
+        </tr>
+        <tr>
+            <td>password:</td>
+            <td><input type="password" name="password"/></td>
+        </tr>
+        <tr>
+            <td>gender:</td>
+            <td><input type="radio" name="gender" value="male"/>Male
+                <input type="radio" name="gender" value="female"/>FeMale</td>
+        </tr>
+        <tr>
+            <td>city:</td>
+            <td>
+                <select name="city">
+                    <option value="baroda">baroda</option>
+                    <option value="rajkot">rajkot</option>
+                </select>
+            </td>
+        </tr>
+        <tr><td><input type="checkbox" name="chk1" value="check1">Agree terms and conditions.</td></tr>
+        <tr>
+            <td><input type="submit" name="submit" value="submit"/>
+                <input type="reset" name="reset" value="reset"/></td>
+        </tr>
+    </table>
+</form>
+
+</body>
+</html>
